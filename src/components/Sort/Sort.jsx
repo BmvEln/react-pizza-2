@@ -21,7 +21,7 @@ const Sort = () => {
   const sort = useSelector((state) => state.filterReducer.sort);
   const sortPopupRef = useRef();
 
-  console.log(sortPopupRef);
+  // console.log(sortPopupRef);
 
   const [isActiveMenu, setIsActiveMenu] = useState(false);
 
